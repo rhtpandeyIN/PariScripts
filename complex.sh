@@ -1,17 +1,17 @@
-echo "Enter any number between 1 to 3"
-read p1
+echo "Enter any number choice between 1 to 3"
+read choice
 
-if [ "$p1" = 1 ]
+if [ "$choice" = 1 ]
 then
 	echo "pizza"
 fi
 
-if [ "$p1" = 2 ]
+if [ "$choice" = 2 ]
 then
 	echo "Burger"
 fi
 
-if [ "$p1" = 3 ]
+if [ "$choice" = 3 ]
 then
 	echo "Biryani"
 fi
